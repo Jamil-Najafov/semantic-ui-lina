@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.6 - Input
+ * # Semantic UI 2.2.7 - Input
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -123,7 +123,7 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #A0A0A0 transparent transparent;
+  border-color: #767676 transparent transparent;
   border-style: solid;
   border-width: 0.2em;
   box-shadow: 0px 0px 0px 1px transparent;
@@ -135,7 +135,7 @@
 
 .ui.input.focus input,
 .ui.input input:focus {
-  border-color: #404040;
+  border-color: #1B1C1D;
   background: #FFFFFF;
   color: rgba(0, 0, 0, 0.8);
   box-shadow: none;
@@ -324,7 +324,7 @@
   border-left-color: transparent;
 }
 .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
-  border-left-color: #404040;
+  border-left-color: #1B1C1D;
 }
 
 /* Regular Label on Right */
@@ -338,7 +338,7 @@
   border-bottom-left-radius: 0px;
 }
 .ui[class*="right labeled"].input input:focus {
-  border-right-color: #404040 !important;
+  border-right-color: #1B1C1D !important;
 }
 
 /* Corner Label */
@@ -423,7 +423,7 @@
 
 /* Input Focus */
 .ui.action.input:not([class*="left action"]) input:focus {
-  border-right-color: #404040 !important;
+  border-right-color: #1B1C1D !important;
 }
 
 /* Button on Left */
@@ -445,7 +445,7 @@
 
 /* Input Focus */
 .ui[class*="left action"].input > input:focus {
-  border-left-color: #404040 !important;
+  border-left-color: #1B1C1D !important;
 }
 
 /*--------------------
