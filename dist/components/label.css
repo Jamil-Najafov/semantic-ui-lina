@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7 - Label
+ * # Semantic UI 2.2.11 - Label
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -25,9 +25,9 @@
   text-transform: none;
   font-weight: bold;
   border: 0px solid transparent;
-  border-radius: 0.14285714rem;
-  -webkit-transition: background 0 ease;
-  transition: background 0 ease;
+  border-radius: 0.28571429rem;
+  -webkit-transition: background 0s ease;
+  transition: background 0s ease;
 }
 .ui.label:first-child {
   margin-left: 0em;
@@ -46,8 +46,8 @@ a.ui.label {
   cursor: pointer;
   color: inherit;
   opacity: 0.5;
-  -webkit-transition: 0 opacity ease;
-  transition: 0 opacity ease;
+  -webkit-transition: 0s opacity ease;
+  transition: 0s opacity ease;
 }
 .ui.label > a:hover {
   opacity: 1;
@@ -86,8 +86,8 @@ a.ui.label {
   margin-left: 0.5em;
   font-size: 0.92857143em;
   opacity: 0.5;
-  -webkit-transition: background 0 ease;
-  transition: background 0 ease;
+  -webkit-transition: background 0s ease;
+  transition: background 0s ease;
 }
 .ui.label > .delete.icon:hover {
   opacity: 1;
@@ -149,21 +149,22 @@ a.ui.label {
   text-transform: none;
   background: #E8E8E8;
   padding: 0.5833em 0.833em 0.5833em 0.5em;
-  border-radius: 0.14285714rem;
-  box-shadow: none;
+  border-radius: 0.28571429rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .ui.image.label img {
   display: inline-block;
   vertical-align: top;
   height: 2.1666em;
   margin: -0.5833em 0.5em -0.5833em -0.5em;
-  border-radius: 0.14285714rem 0em 0em 0.14285714rem;
+  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
 }
 .ui.image.label .detail {
   background: rgba(0, 0, 0, 0.1);
   margin: -0.5833em -0.833em -0.5833em 0.5em;
   padding: 0.5833em 0.833em;
-  border-radius: 0em 0.14285714rem 0.14285714rem 0em;
+  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
 }
 
 /*-------------------
@@ -176,7 +177,7 @@ a.ui.label {
   position: relative;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  border-radius: 0em 0.14285714rem 0.14285714rem 0em;
+  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
   -webkit-transition: none;
   transition: none;
 }
@@ -205,7 +206,8 @@ a.ui.label {
   background-color: #FFFFFF !important;
   width: 0.5em;
   height: 0.5em;
-  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
   border-radius: 500rem;
 }
 
@@ -224,8 +226,8 @@ a.ui.label {
   width: 4em;
   height: 4em;
   z-index: 1;
-  -webkit-transition: border-color 0 ease;
-  transition: border-color 0 ease;
+  -webkit-transition: border-color 0s ease;
+  transition: border-color 0s ease;
 }
 
 /* Icon Label */
@@ -246,8 +248,8 @@ a.ui.label {
   border-bottom: 4em solid transparent;
   border-left: 0em solid transparent;
   border-right-color: inherit;
-  -webkit-transition: border-color 0 ease;
-  transition: border-color 0 ease;
+  -webkit-transition: border-color 0s ease;
+  transition: border-color 0s ease;
 }
 .ui.corner.label .icon {
   cursor: default;
@@ -295,7 +297,7 @@ a.ui.label {
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
-  border-radius: 0em 0.14285714rem 0.14285714rem 0em;
+  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
   border-color: rgba(0, 0, 0, 0.15);
 }
 .ui.ribbon.label:after {
@@ -330,7 +332,7 @@ a.ui.label {
   text-align: left;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  border-radius: 0.14285714rem 0em 0em 0.14285714rem;
+  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
 }
 .ui[class*="right ribbon"].label:after {
   left: auto;
@@ -388,19 +390,19 @@ a.ui.label {
 .ui[class*="top left attached"].label {
   width: auto;
   margin-top: 0em !important;
-  border-radius: 0.21428571rem 0em 0.14285714rem 0em;
+  border-radius: 0.21428571rem 0em 0.28571429rem 0em;
 }
 .ui[class*="top right attached"].label {
   width: auto;
   left: auto;
   right: 0em;
-  border-radius: 0em 0.21428571rem 0em 0.14285714rem;
+  border-radius: 0em 0.21428571rem 0em 0.28571429rem;
 }
 .ui[class*="bottom left attached"].label {
   width: auto;
   top: auto;
   bottom: 0em;
-  border-radius: 0em 0.14285714rem 0em 0.21428571rem;
+  border-radius: 0em 0.28571429rem 0em 0.21428571rem;
 }
 .ui[class*="bottom right attached"].label {
   top: auto;
@@ -408,7 +410,7 @@ a.ui.label {
   left: auto;
   right: 0em;
   width: auto;
-  border-radius: 0.14285714rem 0em 0.21428571rem 0em;
+  border-radius: 0.28571429rem 0em 0.21428571rem 0em;
 }
 
 
@@ -1045,7 +1047,8 @@ a.ui.basic.black.label:hover {
   background: none #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /* Link */
@@ -1053,8 +1056,10 @@ a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
   color: #1f7dc7;
-  box-shadow: 1px solid rgba(34, 36, 38, 0.15);
-  box-shadow: none;
+  -webkit-box-shadow: 1px solid rgba(34, 36, 38, 0.15);
+          box-shadow: 1px solid rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /* Pointing */
@@ -1069,7 +1074,8 @@ a.ui.basic.label:hover {
 .ui.label.fluid,
 .ui.fluid.labels > .label {
   width: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*-------------------
@@ -1144,8 +1150,8 @@ a.ui.basic.label:hover {
   z-index: 2;
   width: 0.6666em;
   height: 0.6666em;
-  -webkit-transition: background 0 ease;
-  transition: background 0 ease;
+  -webkit-transition: background 0s ease;
+  transition: background 0s ease;
 }
 
 /*--- Above ---*/
